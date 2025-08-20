@@ -1,4 +1,4 @@
-# Projet SIEM – Installation et Configuration ELK + Filebeat (System, Apache, Suricata)
+# Projet SIEM – Installation et Configuration ELK + Filebeat
 
 ## Contexte
 
