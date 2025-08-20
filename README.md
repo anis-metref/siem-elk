@@ -1,5 +1,7 @@
 # Projet SIEM – Installation et Configuration ELK + Filebeat
 
+![elk](./screenshot/elk.png)
+
 ## Contexte
 
 Ce lab met en place un **SIEM** basé sur la stack **ELK** (Elasticsearch, Logstash, Kibana) pour collecter, analyser et visualiser les logs provenant de plusieurs sources :
@@ -221,8 +223,14 @@ sudo systemctl start filebeat
 ##  Vérification dans Kibana
 
 - **[Filebeat System] Syslog dashboard** → syslog, sudo, ssh, nouveaux utilisateurs/groupes
+![system](./screenshot/1-filebeat-system.png)
+
+
 - **[Filebeat Apache] Access and error logs** → trafic web, erreurs http
+![system](./screenshot/2-filebeat-apache2.png)
+
 - **[Filebeat Suricata] Alerts** → alertes IDS/IPS
+![system](./screenshot/3-filebeat-suricata.png)
 
 ---
 
