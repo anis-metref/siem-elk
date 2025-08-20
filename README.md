@@ -122,7 +122,7 @@ output {
 
 ---
 
-## 2️⃣ Configuration de la sécurité Elastic
+##  Configuration de la sécurité Elastic
 
 - Générer un token pour Kibana :
 ```bash
@@ -220,8 +220,8 @@ sudo systemctl start filebeat
 
 ##  Vérification dans Kibana
 
-- **[Filebeat System] Syslog dashboard** → Syslog, sudo, SSH, nouveaux utilisateurs/groupes
-- **[Filebeat Apache] Access and error logs** → trafic web, erreurs HTTP
+- **[Filebeat System] Syslog dashboard** → syslog, sudo, ssh, nouveaux utilisateurs/groupes
+- **[Filebeat Apache] Access and error logs** → trafic web, erreurs http
 - **[Filebeat Suricata] Alerts** → alertes IDS/IPS
 
 ---
