@@ -49,7 +49,7 @@ path.data: /var/lib/elasticsearch
 path.logs: /var/log/elasticsearch
 network.host: 0.0.0.0
 http.port: 9200
-discovery.seed_hosts: ["10.10.2.10", "127.0.0.1"]  
+discovery.seed_hosts: ["127.0.0.1"]  
 cluster.initial_master_nodes: ["elk"]
 
 xpack.security.enabled: true
