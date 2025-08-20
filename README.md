@@ -218,7 +218,7 @@ sudo systemctl start filebeat
 
 ---
 
-## 4️⃣ Vérification dans Kibana
+##  Vérification dans Kibana
 
 - **[Filebeat System] Syslog dashboard** → Syslog, sudo, SSH, nouveaux utilisateurs/groupes
 - **[Filebeat Apache] Access and error logs** → trafic web, erreurs HTTP
@@ -226,11 +226,10 @@ sudo systemctl start filebeat
 
 ---
 
-## 5️⃣ Résultat attendu
+##  Résultat attendu
 
 - Logs centralisés dans Elasticsearch
 - Dashboards prêts à l’emploi dans Kibana
 - Détection en temps réel des événements critiques
-- Base solide pour un SOC
 
 ---
