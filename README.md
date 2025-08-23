@@ -234,7 +234,7 @@ sudo systemctl start filebeat
 
 ---
 
-##  Résultat attendu
+##  Résultat
 
 - Logs centralisés dans Elasticsearch
 - Dashboards prêts à l’emploi dans Kibana
